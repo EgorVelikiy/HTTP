@@ -1,0 +1,84 @@
+.container {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.task-list {
+    text-align: center;
+    gap: 10px;
+}
+
+.form-widget {
+    position: absolute;
+}
+
+.container-form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    background-color: #fff;
+    z-index: 999;
+    text-align: center;
+}
+
+.form-group {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+label {
+    font-size: 14px;
+    color: #888;
+}
+
+input {
+    padding-left: 10px;
+}
+
+.name, .description {
+    height: 34px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.form-btns {
+    margin-right: 0;
+    text-align: end
+}
+
+.create, .cancel {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.add-ticket, .show-tickets {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.show-tickets {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
